@@ -158,6 +158,14 @@ proxies:
     up_mbps: 50
     down_mbps: 500
 
+  - name: "vless-tcp"
+    type: vless
+    server: ussjexp.bgcine.xyz
+    port: 443
+    uuid: a5d27a4a-ed50-11ec-8ea0-0242ac120002
+    network: tcp
+    servername: example.com
+
 
 proxy-groups:
   - name: Match
